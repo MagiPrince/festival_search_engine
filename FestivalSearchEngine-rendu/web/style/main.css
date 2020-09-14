@@ -1,0 +1,34 @@
+/* style.css - 01/11/17 */
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: "Bree";
+}
+
+#map {
+	margin: 1%;
+	height: 90%;
+}
+
+.hidden {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+}
+
+img {
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	margin : 1%;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "festivalsearchengine",
+    "version": "0.1.0",
+    "main": "server.js",
+    "description": "Use of axios, cors, express, monk and (wrapper) spotify-web-api-node like main dependencies.",
+    "apidoc": {
+        "name": "Festival Search Engine API",
+        "title": "Festival Search Engine API",
+        "url": "http://localhost:8080"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "fs": "0.0.1-security",
+        "log": "^1.4.0",
+        "mongodb": "^3.3.5",
+        "monk": "^7.1.1",
+        "path": "^0.12.7",
+        "spotify-web-api-node": "^4.0.0"
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Festival Search Engine</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-3KRribwybSw2yJU3u675JAGCj9Wvxq0&libraries=places"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script src="http://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+</head>
+<body>
+	<h1>Festival Search Engine</h1>
+	<div id="search">
+		<form id="searchForm" action="index.html" method="get">
+			<input type="text" placeholder="Search an artist" name="artistQuery">
+			<input type="text" placeholder="Search a location" name="locationQuery" id="locationText">
+			<input type="submit" class="hidden" tabindex="-1">
+		</form>
+	</div>
+	<div id="map"></div>
+	<div id="event"></div>
+	<div id="audio"></div>
+	<div id="artist"></div>
+	<script src="googlemaps.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-3KRribwybSw2yJU3u675JAGCj9Wvxq0&callback=initMap" async defer></script>
+</body>
+</html>
